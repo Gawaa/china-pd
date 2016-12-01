@@ -31,7 +31,7 @@ var IsCity = true;//是否是city状态
 var IsGDP = false;//是否是gdp状态
 var mod = {IsCity:true, IsGDP:false, IsPOP:true, IsPGDP:false};
 
-var width  = 1000;
+var width  = 800;
 var height = 700;
 var svg = d3.select("#middle").append("div").attr("id", "divsvg").attr("class","divsvg")
     .append("svg").attr("id","svg").attr("class","svg")
